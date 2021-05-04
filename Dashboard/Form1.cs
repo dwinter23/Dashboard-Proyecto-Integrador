@@ -36,9 +36,13 @@ namespace Dashboard
             pnlNav.Left = btnDashbord.Left;
 
             lbltitle.Text = "Dashbord";
+
             frmDashboard frmDashboard_vrb = new frmDashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            
             frmDashboard_vrb.FormBorderStyle = FormBorderStyle.None;
+            
             this.pnlFormLoader.Controls.Add(frmDashboard_vrb);
+            
             frmDashboard_vrb.Show();
         }
 
@@ -88,7 +92,8 @@ namespace Dashboard
             frmCalender_vrb.FormBorderStyle = FormBorderStyle.None;
             this.pnlFormLoader.Controls.Add(frmCalender_vrb);
             frmCalender_vrb.Show();
-            lbltitle.Text = "Calender";
+
+            lbltitle.Text = "Compras";
         }
 
         private void btnContactUs_Click(object sender, EventArgs e)
@@ -102,7 +107,7 @@ namespace Dashboard
             frmContactUs_vrb.FormBorderStyle = FormBorderStyle.None;
             this.pnlFormLoader.Controls.Add(frmContactUs_vrb);
             frmContactUs_vrb.Show();
-            lbltitle.Text = "Contact Us";
+            lbltitle.Text = "Venntas";
         }
         private void btnInventario(object sender, EventArgs e)
         {
@@ -115,7 +120,7 @@ namespace Dashboard
             frmContactUs_vrb.FormBorderStyle = FormBorderStyle.None;
             this.pnlFormLoader.Controls.Add(frmContactUs_vrb);
             frmContactUs_vrb.Show();
-            lbltitle.Text = "Contact Us";
+            lbltitle.Text = "Almacen";
         }
 
         private void btnsettings_Click(object sender, EventArgs e)
@@ -129,7 +134,7 @@ namespace Dashboard
             frmSettings_vrb.FormBorderStyle = FormBorderStyle.None;
             this.pnlFormLoader.Controls.Add(frmSettings_vrb);
             frmSettings_vrb.Show();
-            lbltitle.Text = "Settings";
+            lbltitle.Text = "Configuracion.";
         }
 
         private void btnDashbord_Leave(object sender, EventArgs e)
