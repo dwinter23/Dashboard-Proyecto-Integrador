@@ -58,7 +58,7 @@ namespace Dashboard
             pnlNav.Left = btnDashbord.Left;
             btnDashbord.BackColor = Color.FromArgb(46, 51, 73);
 
-            lbltitle.Text = "Dashbord";
+            lbltitle.Text = "Dashboard";
             this.pnlFormLoader.Controls.Clear();
             frmDashboard frmDashboard_vrb = new frmDashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             frmDashboard_vrb.FormBorderStyle = FormBorderStyle.None;
@@ -73,7 +73,7 @@ namespace Dashboard
             pnlNav.Top = btnAnalytics.Top;
             btnAnalytics.BackColor = Color.FromArgb(46, 51, 73);
 
-            lbltitle.Text = "Analytics";
+            lbltitle.Text = "Analisis";
             this.pnlFormLoader.Controls.Clear();
             frmAnalytics frmAnalytics_vrb = new frmAnalytics() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             frmAnalytics_vrb.FormBorderStyle = FormBorderStyle.None;
