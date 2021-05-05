@@ -107,7 +107,7 @@ namespace Dashboard
             frmContactUs_vrb.FormBorderStyle = FormBorderStyle.None;
             this.pnlFormLoader.Controls.Add(frmContactUs_vrb);
             frmContactUs_vrb.Show();
-            lbltitle.Text = "Venntas";
+            lbltitle.Text = "Ventas";
         }
         private void btnInventario(object sender, EventArgs e)
         {
