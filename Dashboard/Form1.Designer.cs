@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAlmacen = new System.Windows.Forms.Button();
             this.pnlNav = new System.Windows.Forms.Panel();
             this.btnsettings = new System.Windows.Forms.Button();
             this.btnContactUs = new System.Windows.Forms.Button();
@@ -43,7 +44,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lbltitle = new System.Windows.Forms.Label();
             this.pnlFormLoader = new System.Windows.Forms.Panel();
-            this.btnAlmacen = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -66,6 +66,22 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(186, 700);
             this.panel1.TabIndex = 0;
+            // 
+            // btnAlmacen
+            // 
+            this.btnAlmacen.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAlmacen.FlatAppearance.BorderSize = 0;
+            this.btnAlmacen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlmacen.Font = new System.Drawing.Font("Nirmala UI", 9.75F);
+            this.btnAlmacen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.btnAlmacen.Location = new System.Drawing.Point(0, 322);
+            this.btnAlmacen.Name = "btnAlmacen";
+            this.btnAlmacen.Size = new System.Drawing.Size(186, 42);
+            this.btnAlmacen.TabIndex = 3;
+            this.btnAlmacen.Text = "Almacen";
+            this.btnAlmacen.UseVisualStyleBackColor = true;
+            this.btnAlmacen.Click += new System.EventHandler(this.btnAlmacen_Click);
+            this.btnAlmacen.Leave += new System.EventHandler(this.btnAlmacen_Leave);
             // 
             // pnlNav
             // 
@@ -123,7 +139,7 @@
             this.btnCalender.Name = "btnCalender";
             this.btnCalender.Size = new System.Drawing.Size(186, 42);
             this.btnCalender.TabIndex = 1;
-            this.btnCalender.Text = "Ventas";
+            this.btnCalender.Text = "Mantenimiento de Producto";
             this.btnCalender.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnCalender.UseVisualStyleBackColor = true;
             this.btnCalender.Click += new System.EventHandler(this.btnCalender_Click);
@@ -141,7 +157,7 @@
             this.btnAnalytics.Name = "btnAnalytics";
             this.btnAnalytics.Size = new System.Drawing.Size(186, 42);
             this.btnAnalytics.TabIndex = 1;
-            this.btnAnalytics.Text = "Analisis";
+            this.btnAnalytics.Text = "Mantenimiento de Cliente";
             this.btnAnalytics.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnAnalytics.UseVisualStyleBackColor = true;
             this.btnAnalytics.Click += new System.EventHandler(this.btnAnalytics_Click);
@@ -257,22 +273,6 @@
             this.pnlFormLoader.Size = new System.Drawing.Size(1038, 603);
             this.pnlFormLoader.TabIndex = 14;
             // 
-            // btnAlmacen
-            // 
-            this.btnAlmacen.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAlmacen.FlatAppearance.BorderSize = 0;
-            this.btnAlmacen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlmacen.Font = new System.Drawing.Font("Nirmala UI", 9.75F);
-            this.btnAlmacen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.btnAlmacen.Location = new System.Drawing.Point(0, 322);
-            this.btnAlmacen.Name = "btnAlmacen";
-            this.btnAlmacen.Size = new System.Drawing.Size(186, 42);
-            this.btnAlmacen.TabIndex = 3;
-            this.btnAlmacen.Text = "Almacen";
-            this.btnAlmacen.UseVisualStyleBackColor = true;
-            this.btnAlmacen.Click += new System.EventHandler(this.btnAlmacen_Click);
-            this.btnAlmacen.Leave += new System.EventHandler(this.btnAlmacen_Leave);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -299,7 +299,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "e";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

@@ -73,7 +73,7 @@ namespace Dashboard
             pnlNav.Top = btnAnalytics.Top;
             btnAnalytics.BackColor = Color.FromArgb(46, 51, 73);
 
-            lbltitle.Text = "Analisis";
+            lbltitle.Text = "Mantenimiento de Clientes";
             this.pnlFormLoader.Controls.Clear();
             frmAnalytics frmAnalytics_vrb = new frmAnalytics() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             frmAnalytics_vrb.FormBorderStyle = FormBorderStyle.None;
@@ -93,7 +93,7 @@ namespace Dashboard
             this.pnlFormLoader.Controls.Add(frmCalender_vrb);
             frmCalender_vrb.Show();
 
-            lbltitle.Text = "Compras";
+            lbltitle.Text = "Mantenimiento de Productos";
         }
 
         private void btnContactUs_Click(object sender, EventArgs e)
