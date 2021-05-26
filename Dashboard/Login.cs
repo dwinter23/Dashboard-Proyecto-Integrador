@@ -7,9 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+d
 namespace LOGIN_COMPUTEL
 {
+    
     public partial class fmrUno : Form
     {
         public fmrUno()
@@ -29,7 +30,7 @@ namespace LOGIN_COMPUTEL
 
         private void fmrUno_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void buttonDos_Click(object sender, EventArgs e)
@@ -54,8 +55,12 @@ namespace LOGIN_COMPUTEL
             Left = Left + (e.X - posX);
             Top = Top + (e.Y - posY);
         }
-        
     }
+
+        private void buttonUno_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

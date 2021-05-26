@@ -24,7 +24,6 @@ namespace Dashboard
                int nBottomRect,
                int nWidthEllipse,
                int nHeightEllipse
-
          );
 
         public Form1()
@@ -35,7 +34,7 @@ namespace Dashboard
             pnlNav.Top = btnDashbord.Top;
             pnlNav.Left = btnDashbord.Left;
 
-            lbltitle.Text = "Dashbord";
+            lbltitle.Text = "Pagina Principal";
 
             frmDashboard frmDashboard_vrb = new frmDashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             
@@ -58,7 +57,7 @@ namespace Dashboard
             pnlNav.Left = btnDashbord.Left;
             btnDashbord.BackColor = Color.FromArgb(46, 51, 73);
 
-            lbltitle.Text = "Dashboard";
+            lbltitle.Text = "Pagina Principal";
             this.pnlFormLoader.Controls.Clear();
             frmDashboard frmDashboard_vrb = new frmDashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             frmDashboard_vrb.FormBorderStyle = FormBorderStyle.None;

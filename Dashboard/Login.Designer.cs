@@ -106,6 +106,7 @@
             this.buttonUno.TabIndex = 6;
             this.buttonUno.Text = "INICIAR SESION";
             this.buttonUno.UseVisualStyleBackColor = false;
+            this.buttonUno.Click += new System.EventHandler(this.buttonUno_Click);
             // 
             // linkLabelUno
             // 
